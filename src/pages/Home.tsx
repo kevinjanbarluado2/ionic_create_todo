@@ -32,17 +32,13 @@ const Home: React.FC = () => {
 
   return (
     <IonPage>
-      <IonHeader>
+      <IonHeader collapse="fade">
         <IonToolbar>
           <IonTitle>Kevin Todo</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent className='ion-padding' fullscreen >
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Todo List</IonTitle>
-          </IonToolbar>
-        </IonHeader>
+
         <IonItem>
           <IonLabel position="floating">Task</IonLabel>
           <IonInput placeholder='Write a task...'
