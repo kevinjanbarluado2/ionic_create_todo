@@ -3,10 +3,6 @@ import { checkmarkCircleOutline as checkIcon, trashBin } from 'ionicons/icons'
 import { useEffect, useState } from 'react';
 import './Home.css';
 
-type TaskType = {
-  name: string,
-  done: boolean
-}
 
 const Home: React.FC = () => {
   const [task, setTask]: any = useState('')
